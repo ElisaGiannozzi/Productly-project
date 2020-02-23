@@ -198,3 +198,38 @@ h2 {
     height: 53 px; 
     margin-top: 40px; 
 }
+
+.design-professionals-text-container {
+    display:inline-block; 
+    max-width: 50%;
+    overflow: hidden;
+    margin-left: 100px; 
+    margin-top: 50px 
+
+}
+
+.design-professionals-img-container {
+    display: inline-block; 
+    margin-left: 100px; 
+    margin-top: 100px; 
+    padding: 30px; 
+}
+
+.design-professionals-title {
+    font-size: 36px; 
+    font-weight: bold;
+    margin-top: 0px; 
+}
+
+.accessory-makers-title, .alterationists-title, 
+.custom-designers-title {
+    font-size: 16px; 
+    font-weight: bold; 
+} 
+
+.design-professionals-text, .accessory-makers-text, 
+.alterationists-text, .custom-designers-text {
+    margin-bottom: 40px; 
+    font-size: 16px; 
+    font-weight: medium; 
+}
