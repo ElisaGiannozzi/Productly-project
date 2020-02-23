@@ -48,12 +48,15 @@ header {
     margin-right: 5px;    
 }
 
-.sign-in-button, {
+.sign-in-button {
     font-family: Poppins; 
-    border-radius: 5px; 
+    border-radius: 5px;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
+    border-width: 1px; 
+    border-color: #BCD0E5; 
+    background-color: white;
     font-size: 16px;
     font-weight: semi-bold;
     width: 110px; 
@@ -81,15 +84,117 @@ h1 {
 }
 
 .intro-buttons-container {
-    margin-top: 50px; 
+    margin-top: 50px;
 }
+
+.get-started-button {
+    font-family: Poppins; 
+    border-radius: 5px;
+    background-color: #FF9900;
+    border:none; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color:white; 
+    font-weight: semi-bold;
+    width: 175px; 
+    height: 53 px; 
+}
+
+.watch-video-button {
+    color:#FF9900;
+    border: none; 
+    background-color: white;
+    text-decoration: underline; 
+    font-family: Poppins; 
+    font-weight: semi-bold; 
+    margin-left: 5px; 
+    padding: 5px; 
+}
+
+/*icon missing*/
+
 .hero-section-container {
     display: inline-block;
     max-width: 50%;
     height: 496px;
     overflow: hidden;
+    margin-left: 70px; 
+    margin-top: 50px;  
 }
+
 .people-image {
     width: 100%; 
     height: 100%; 
+}
+
+h2 {
+    font-size: 36px; 
+    font-weight: bold; 
+    text-align:center; 
+    margin-top: 70px; 
+}
+
+.options-container {
+    margin-left:50px;  
+}
+
+.first-click-container {
+    display:inline-block; 
+    margin-left: 50px; 
+    margin-right: 50px; 
+}
+
+.design-survey-container {
+    display:inline-block; 
+    margin-left: 50px; 
+    margin-right: 50px; 
+}
+
+.preference-tests-container {
+    display:inline-block; 
+    margin-left: 50px; 
+    margin-right: 50px; 
+}
+
+.five-second-tests-container {
+    display:inline-block; 
+    margin-left: 20px; 
+    margin-right: 20px;  
+}
+
+.first-click-title, .design-surveys-title, 
+.preference-test-title, .five-second-tests-title {
+    font-weight: bold; 
+    font-size: 22px; 
+}
+
+.first-click-text, .design-surveys-text, 
+.preference-test-text, .five-second-tests-text {
+    font-weight: medium; 
+    font-size: 16px; 
+}
+
+.sign-up-now-button-container {
+    display:inline-block; 
+    min-width:100%;  
+    text-align:center; 
+}
+
+.sign-up-now-button {
+    font-family: Poppins; 
+    border-radius: 5px;
+    background-color: #FF9900;
+    border:none; 
+    padding: 10px 20px;
+    text-align: center;
+    text-transform:uppercase; 
+    text-decoration: none;
+    font-size: 16px;
+    color:white; 
+    font-weight: semi-bold;
+    width: 175px; 
+    height: 53 px; 
+    margin-top: 40px; 
 }
